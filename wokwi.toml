@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+firmware = 'build/Interruptores.uf2'
+elf = 'build/Interruptores.elf'
+gdbServerPort=3333
+rfc2217ServerPort = 4000
