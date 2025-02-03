@@ -120,7 +120,7 @@ $ git clone https://github.com/Erlon335/Interruptores.git
 #### Wokwi Web
 - Entre no navegador e digite [Wokwi.com]()
 - Faça Upload dos Arquivos <i>diagram.json</i>
-- Faça upload do aquivo main <i>Interruptores.c</i>
+- Faça upload do aquivo <i>Interruptores.c</i>
 
 #### Extensão Wokwi
 - Abra o Visual Studio
