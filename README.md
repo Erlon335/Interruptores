@@ -20,7 +20,7 @@ Tabela de conteúdos
    * [Tecnologias](#-tecnologias)
      * [Websites](#-websites)
      * [Utilitários](#user-content-server--nodejs----typescript)
-   * [Contribuidores](#-contribuidores)
+   * [Desenvolvedor](#-desenvolvedor)
    * [Licença](#-licença)
 <!--te-->
 
@@ -59,7 +59,7 @@ A Formação Básica em Software Embarcado da Embarcatech é um programa de capa
 
  - CMakeLists.txt
 
- - Interruptores.c
+ - Interruptores.c&emsp;&emsp;&emsp;&emsp; # Código principal do projeto
 
  - LICENSE
 
@@ -67,7 +67,7 @@ A Formação Básica em Software Embarcado da Embarcatech é um programa de capa
 
  - blink.pio
 
- - diagram.json
+ - diagram.json&emsp;&emsp;&emsp;&emsp;# Arquivo Wokwi do BitDogLab
 
  - pico_sdk_import.cmake
 
@@ -82,8 +82,10 @@ A Formação Básica em Software Embarcado da Embarcatech é um programa de capa
 ---
 
 ## ⚙️ Funcionalidades
-- Botões A e B de comando
-- Animações de 1 a 9 feitas pelas LEDs
+- O LED vermelho do LED RGB pisca 5 vezes por segundo.
+- O botão A incrementa o número exibido na  a cada pressão.
+- O botão B decrementa o número exibido na  a cada pressão.
+- A  de LEDs é usada para criar efeitos visuais que representam números de 0 a 9.
 
 ---
 
@@ -158,7 +160,7 @@ elf = 'build/Interruptores.elf'
 ### 💿 Diagrama Visual do Projeto
 <p align="center"><img width="700" height="400" src="https://github.com/Erlon335/Interruptores/blob/main/asset/Diagrama%20visual%20wokwi.png"></p>
 
-### 💿 Video do Projeto na Extensão Wokwi
+### 💿 Video Demonstrativo do Projeto
 
 
 
@@ -168,7 +170,7 @@ elf = 'build/Interruptores.elf'
 
 
 
-- Dowload HD video completo: 
+- link para Dowload: (https://github.com/Erlon335/Interruptores/blob/main/asset/video%20demonstrativo%20do%20projeto.mp4)
 
 ---
 
