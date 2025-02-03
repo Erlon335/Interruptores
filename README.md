@@ -190,7 +190,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 👨‍💻 Desenvolver
+## 👨‍💻 Desenvolvedor
 
 GRUPO 1, SUBGRUPO 3 da Embarcatech <br/>
 Mentor: MANOEL MESSIAS DA SILVA JUNIOR
