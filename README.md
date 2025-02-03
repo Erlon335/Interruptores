@@ -1,11 +1,9 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
-<h1 align="center"><img align="center" style="border-radius: 100%;" src="https://github.com/user-attachments/assets/d96d3f73-4cff-4f9f-9feb-cf8a7ccfd9d3" width="300px;" alt=""><br>Interruptores</h1>
+<h1 align="center"><img align="center" style="border-radius: 100%;" src="https://moodle.embarcatech.cepedi.org.br/pluginfile.php/1/theme_moove/logo/1733422525/Group%20658.png" width="300px;" alt=""><br>Interruptores</h1>
 
 <h3 align="center">
    Teste de Comando dos Interruptores em Linguagem C 
 </h3>
-
-
 
 ---
 
@@ -30,7 +28,7 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-O projeto de Animações de Led em Linguagem C, é um sistema teste desenvolvido para fixação e experimentação do conteúdo proposto pelo curso.
+O projeto de Interruptores integrado a LEDs, é um sistema teste desenvolvido para fixação e experimentação do conteúdo proposto pelo curso.
 
 Projeto desenvolvido durante o curso de Formação Básica em Software Embarcado oferecido pela [Embarcatech](https://embarcatech.softex.br).
 A Formação Básica em Software Embarcado da Embarcatech é um programa de capacitação profissional técnica destinado a alunos de nível superior e técnico em Tecnologias da Informação e Comunicação (TIC) e áreas correlatas, focado em tecnologias de Sistemas Embarcados.
@@ -40,19 +38,52 @@ A Formação Básica em Software Embarcado da Embarcatech é um programa de capa
 ## 🎨 Layout Repositorio Github
 <i>
 
+Interruptores/
+
+ - .vscode/
+    - c_cpp_properties.json
+
+    - cmake-kits.json
+
+    - extensions.json
+
+    - launch.json
+
+    - main
+
+    - settings.json
+
+    - tasks.json
+
+ - asset/
+
+ - CMakeLists.txt
+
+ - Interruptores.c
+
+ - LICENSE
+
+ - README.md
+
+ - blink.pio
+
+ - diagram.json
+
+ - pico_sdk_import.cmake
+
+ - wokwi.toml
+
+ - ws2818b.pio
+
+ - ws2818b.pio.h
+
 </i>
 
 ---
 
 ## ⚙️ Funcionalidades
-- Teclado Matricial4X4
-- Teclas Funcionais:
-  - 1 à 8 interação com animações
-  - A desliga leds
-  - B liga LEDs na cor Azul
-  - C liga LEDs na cor Vermelha
-  - D liga LEDs na cor Verde
-  - Botão # liga LEDs na cor Branca
+- Botões A e B de comando
+- Animações de 1 a 9 feitas pelas LEDs
 
 ---
 
@@ -77,10 +108,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
   - Abra o terminal de comando Git Bash 
   - Clone o repositório do GitHub com o comando:
 ```
-$ git clone https://github.com/Embarcatech-Grupo1-Subgrupo3/Animation-BitDogLab.git
+$ git clone https://github.com/Erlon335/Interruptores.git
 ```
 - Opção 2:
-  - No repósitorio [Animation-BitDogLab](https://github.com/Embarcatech-Grupo1-Subgrupo3/Animation-BitDogLab) aperte o Botão <i><>code</i>
+  - No repósitorio [Interruptores](https://github.com/Erlon335/Interruptores) aperte o Botão <i><>code</i>
   - Aperte a opção <i>Dowload ZIP</i>
 
 
@@ -89,7 +120,7 @@ $ git clone https://github.com/Embarcatech-Grupo1-Subgrupo3/Animation-BitDogLab.
 #### Wokwi Web
 - Entre no navegador e digite [Wokwi.com]()
 - Faça Upload dos Arquivos <i>diagram.json</i>
-- Faça upload do aquivo main <i>main.c</i> e da pasta <i>src/</i>
+- Faça upload do aquivo main <i>Interruptores.c</i>
 
 #### Extensão Wokwi
 - Abra o Visual Studio
@@ -99,8 +130,8 @@ $ git clone https://github.com/Embarcatech-Grupo1-Subgrupo3/Animation-BitDogLab.
 ```
 [wokwi]
 version = 1
-firmware = 'build/neopixel_pio.hex'
-elf = 'build/neopixel_pio.elf'
+firmware = 'build/Interruptores.hex'
+elf = 'build/Interruptores.elf'
 ```
 - Abra o arquivo <i>diagram.json</i>
 
@@ -116,9 +147,8 @@ elf = 'build/neopixel_pio.elf'
 - Na aba da extensão [Raspberry Pi Pico](https://marketplace.visualstudio.com/items?itemName=raspberry-pi.raspberry-pi-pico), aperte para Importar o projeto
 - Compile o projeto
 - Entre na pasta <i>build/</i>
-- Cole o arquivo <i>neopixel_pio.uf2</i> no armazenamento placa BitDog
+- Cole o arquivo <i>Interruptores.uf2</i> no armazenamento placa BitDog
 <br>
-<strong>Obs:É necessário uma Teclado Matricial 4X4 para interagir com a placa e suas animções</strong>
 
 
 ---
@@ -126,7 +156,7 @@ elf = 'build/neopixel_pio.elf'
 ## 🎥 Imagens do Projeto
 
 ### 💿 Diagrama Visual do Projeto
-<p align="center"><img width="700" height="400" src="https://github.com/Embarcatech-Grupo1-Subgrupo3/Animation-BitDogLab/blob/main/assets/Captura%20de%20Tela%20(41).png"></p>
+<p align="center"><img width="700" height="400" src="https://github.com/Erlon335/Interruptores/blob/main/asset/Diagrama%20visual%20wokwi.png"></p>
 
 ### 💿 Video do Projeto na Extensão Wokwi
 
@@ -160,7 +190,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 👨‍💻 Contribuidores
+## 👨‍💻 Desenvolver
 
 GRUPO 1, SUBGRUPO 3 da Embarcatech <br/>
 Mentor: MANOEL MESSIAS DA SILVA JUNIOR
@@ -174,6 +204,6 @@ Mentor: MANOEL MESSIAS DA SILVA JUNIOR
 
 ## 📄 Licença
 
-Este projeto está sob a licença do SUBGRUPO 3 e seu Lider de Projeto da Formação Básica em Software Embarcado da Embarcatech - Veja o arquivo <a href="https://github.com/Erlon335/Interruptores/blob/main/LICENSE">License.md<a/>
+Este projeto está sob a licença de Érlon Alves da Formação Básica em Software Embarcado da Embarcatech - Veja o arquivo <a href="https://github.com/Erlon335/Interruptores/blob/main/LICENSE">License.md<a/>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
